@@ -40,7 +40,8 @@ export default {
    ** Global CSS
    */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    '~/assets/common.css'
   ],
 
   /*
@@ -62,6 +63,7 @@ export default {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    baseURL: 'https://nuxt-blog-app-7c426.firebaseio.com'
   },
 
   /*
